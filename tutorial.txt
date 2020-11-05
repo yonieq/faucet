@@ -1,0 +1,50 @@
+√Sbelum run sc.a lakukan dulu commad ini di termux
+✅buat grup yg akan menjadi tempat chat akun tuyulmu
+√buat grup publik jika tidak mau buat grup pakai saja grup yg sudah ada di konfig.json
+√untuk merubah atau menambah list chat.a gunakan tanda petik2 (") dan koma(,) contoh "hai_1","hai_2"
+✅sebelum run script.a copy folder session yg sudah di otp ke folder yg sama dengan script yg ini agar lebih mudah
+
+python -m pip install -r requirements.txt atau pip install -r requirements.txt
+pip install pytz
+apt install nano
+nano konfig.json
+
+√(Edit isi file konfig.json... Isi dengan walet kalian.. )
+√masukkan id/username grup kamu di situ
+✅ masukkan kode ref kalian(wajib di isi semua)
+✅perintah.a seperti ini
+
+python telemaxv7.3.4.py +62xx(No.Akun) (NamaCurrency)
+
+✅nama currency => doge,ltc,bch,btc,zec (pilih satu saja)
+Contoh:
+
+python telemaxv7.3.4.py +6281649640655 doge
+
+✅buat proxy bisa cari di https://mtproto-proxy.fun/ atau di google..
+✅tes proxy yg work dulu di 1 akun jgn langsung di multi
+✅bisa jg gunakan saja proxy yg sudah ada di konfig.json
+
+command tambahan
+1 python telemaxv7.3.4.py mode run doge 👉buat run akun dri folder session 
+2 python telemaxv7.3.4.py mode ceksesi 👉buat cek sesi aktif dan baned
+3 python telemaxv7.3.4.py +628(nomorakun) read 👉buat baca pesan
+4 python telemaxv7.3.4.py +62(nomorakun) update 👉buat auto update profile
+5 bisa jg daftarkan akun baru di sc ini pakai command 
+    python telemaxv7.3.4.py +nomorbaru currency
+    
+bagian2 yg penting sebelum run.sh
+👉cek foto bagian2 yg perlu di edit
+👉copy folder session yg sudah ada ke folder sc ini atau buat session manual dulu
+👉edit wallet dan kode referral
+👉ingat ✅copy forder sesion sebelum.a jika ingin mengunakan file run.sh
+
+Notes👇
+Buat grup yg tidak ingin di leave masukkan di list noleave.txt
+buat grup private masukan nama grupnya saja..
+contoh:
+Updatesc
+perhatikan huruf besar dan kecil.a
+
+
+bila ada kekeliruan bertanyalah di group Update sc(grup premium clickbot) 

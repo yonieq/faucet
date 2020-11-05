@@ -1,0 +1,62 @@
+{
+    "wallet": {
+        "ltc": "MX9oSvWBhSKL1FZWzsCjqtcxq5SbBaGRx3",
+        "doge": "D7wnb429X7NYzmSA8Xy8WescWnj9dqG8mP",
+        "zec": "t1KY7hotHKttvJq5dya6BoHBbVjBf14n8Hx",
+        "bch": "qzlwz6h7xkxys5mentl7m8xnnswtz498tsfnjjq0lm",
+        "btc": "3Nn2vWq3Vo2X2RGcUVCBtGHFctXRswsk6Y"
+    },
+    "referral": {
+        "mode": "on",
+        "ref_5bot": "off",
+        "ref_ltc": "Wq5M",
+        "ref_doge": "W28v",
+        "ref_zec": "8FIp",
+        "ref_bch": "kXJd",
+        "ref_btc": "kyYe"
+    },
+    "akun_utama": {
+        "mode_nuyul": "on",
+        "number": "+6285390103789",
+        "change_api": "off",
+        "leave": "on",
+        "msg_bot":"off",
+        "join":"off",
+        "visit":"on"
+    },
+    "setting": {
+        "auto_change_api":"off",
+        "allow_NSFW": "off",
+        "auto_switch_mode": "off",
+        "delete_history":"off",
+        "banyak_msg_bot":50,
+        "banyak_join":50,
+        "banyak_visit":500
+    },
+    "fitur": {
+        "grup_tuyul": {
+            "mode": "on",
+            "chat_balance": "on",
+            "group": "@masukpakk",
+            "chat": ["Hai..","absen","good😃","tron"," hehehehe","very nice","hi all","😊😊😊😊😊","nice","Thanks gan"]
+        }, 
+        "proxy": {
+            "proxy": "on",
+            "host":"proxy.digitalresistance.dog",
+            "port":443,
+            "secret":"d41d8cd98f00b204e9800998ecf8427e"
+        },
+        "leave": {
+            "leave": "on",
+            "usia_channel_leave":7
+        },
+        "mode":{
+            "jeda_respon_clickbot":2,
+            "jeda_forward_msgbot":5,
+            "msg":"on",
+            "join":"on",
+            "visit":"on",
+            "auto_wd":"on"
+        }
+    }
+}
